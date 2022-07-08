@@ -2,7 +2,6 @@ import React, { Suspense } from "react";
 import { Canvas } from "react-three-fiber";
 import Monitor from "./components/monitor/Monitor";
 import { OrbitControls } from "@react-three/drei";
-import { ScrollControls, Scroll, useScroll } from "@react-three/drei";
 
 function App() {
   return (
